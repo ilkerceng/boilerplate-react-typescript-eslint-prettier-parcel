@@ -1,4 +1,4 @@
-# cegi-shop
+# boilerplate-react-typescript-eslint-prettier-parcel
 
 Empty project.
 
