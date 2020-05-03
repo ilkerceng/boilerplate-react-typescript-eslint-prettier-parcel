@@ -7,7 +7,7 @@
     "author": "",
     "license": "ISC",
     "scripts": {
-        "clean": "rm dist/bundle.js",
+        "clean": "rimraf dist/ .cache/",
         "start": "parcel src/index.html",
         "build-prod": "parcel build src/index.html",
         "lint": "eslint . --ext .tsx",
@@ -39,6 +39,7 @@
         "jest": "^25.5.4",
         "parcel-bundler": "^1.12.4",
         "prettier": "^2.0.5",
+        "rimraf": "^3.0.2",
         "ts-jest": "^25.4.0",
         "typescript": "^3.8.3"
     },
